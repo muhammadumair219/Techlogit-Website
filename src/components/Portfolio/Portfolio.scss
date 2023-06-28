@@ -1,0 +1,96 @@
+@import "../../utils/rules.scss";
+.portfolio::after{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    width: 433px;
+    height: 700px;
+    background-image: url(../../../public/assets/images/ellips.png);
+    top: 45%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: -1;
+}
+.portfolio::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 433px;
+    height: 700px;
+    background-image: url(../../../public/assets/images/el-left.png);
+    top: 15%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+    z-index: -1;
+}
+.portfolio{
+    position: relative;
+    // background-image: url("../../../public/assets/images/ellips.png"), url("../../../public/assets/images/el-left.png");;
+    // background-position: top right, bottom left;
+    // background-repeat: no-repeat;
+    .header{
+        padding-bottom: 12px !important;
+    }
+    .desc{
+        max-width:891px;
+        margin: auto;
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
+        font-weight: 400;
+        color: $greyColor;
+    }
+    .shuffle-items{
+            ul{
+                justify-content: center;
+                gap: 30px;
+                margin-bottom: 60px;
+                li{
+                    padding: 12px 29px;
+                    border: 1px solid #8a8a8a;
+                    border-radius: 50px;
+                    cursor: pointer;
+                    color: #8a8a8a;
+                    transition: .2;
+                    &.active, &:hover{
+                        background-color: $mainColor;
+                        color: #fff;
+                        border-color: $mainColor;
+                    }
+                }
+            }
+    }
+    .shuffle-details{
+        .item{
+            img  {
+                margin-bottom: 10px;
+            }
+            .title{
+                color: $greyColor;
+                font-size: 18px;
+                line-height: 23px;
+                font-weight: 400;
+            }
+            .item-desc{
+                font-size: 26px;
+                line-height: 34px;
+                font-weight: 500;
+            }
+            .item-btn{
+                @include mainBtn;
+                background-color: #fff;
+                color: $mainColor;
+                padding: 12px 29px;
+                transition: .2;
+                &:hover{
+                    background-color: $mainColor;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}   

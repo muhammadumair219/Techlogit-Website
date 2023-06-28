@@ -1,0 +1,15 @@
+$mainColor: #1B75BC;
+$greyColor: #8A8A8A;
+@mixin mainBtn{                         
+    background-color: $mainColor;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    border: 1.5px solid $mainColor;
+    &:hover{
+        color: #fff !important;
+    }
+}
+body{
+    height: 5000px;
+}

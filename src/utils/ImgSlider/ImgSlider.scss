@@ -1,0 +1,90 @@
+@import "../../utils/rules.scss";
+
+.owl-carousel {
+
+
+    .slide-item {
+        box-shadow: 0px 4px 11px 0px #1B75BC14;
+        background-color: #fff;
+        border-radius: 25px;
+        margin: 0 15px;
+        overflow: hidden;
+        img {
+            max-width: 100%;
+            
+    object-fit: cover;
+        }
+
+        .desc {
+            font-size: 18px;
+            line-height: 28px;
+            font-weight: 400;
+            word-wrap: break-word;
+            margin: 15px 0 32px 0;
+            color: $greyColor;
+        }
+
+        .name {
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 20px;
+            margin-bottom: 12px;
+        }
+
+        .jobtitle {
+            color: $greyColor;
+            font-size: 16px;
+            line-height: 18px;
+            font-weight: 400;
+        }
+    }
+
+    .owl-nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .owl-prev , .owl-next{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 50px;
+            height: 50px;
+            
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px 0px #00000014;
+            background-color: #fff !important;
+            span{
+                font-size: 30px;
+            }
+            &:hover{
+                background-color: #fff !important;
+                span{
+                
+                    color: #000;
+                }
+            }
+            
+        }
+
+        .owl-prev {
+            left: -50px;
+        }
+        .owl-next{
+            right: -50px;
+        }
+    }
+
+    .owl-dots {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 576px ) {
+    .owl-carousel{
+        .owl-nav{
+            display: none;
+        }
+    }
+}   

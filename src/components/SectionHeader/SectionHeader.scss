@@ -1,0 +1,17 @@
+@import "../../utils/rules.scss";
+.section-title{
+    text-align: center;
+    .header{
+        padding-top: 90px ;
+        padding-bottom:40px ;
+        span{
+            margin: 0 5px;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 52.08px;
+            &.colored{
+                color: $mainColor;
+            }
+        }
+    }
+}

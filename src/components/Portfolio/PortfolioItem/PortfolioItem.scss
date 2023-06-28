@@ -1,0 +1,10 @@
+.all{
+    transition: all .4s ;
+    opacity: 0;
+    display: none;
+    transition: opacity .4s ease;
+    &.active{
+        opacity: 1;
+        display: block;
+    }
+}

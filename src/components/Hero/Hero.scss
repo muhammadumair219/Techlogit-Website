@@ -1,0 +1,203 @@
+@import "../../utils/rules.scss";
+
+.hero {
+    position: relative;
+    color: #fff;
+    // background-image: url("../../../public/assets/images/hero/bg.png");
+   
+    background-color: #011836;
+    img{
+        display: block;
+        margin-left: auto;
+    }
+    .heroparticles {
+        background-repeat: no-repeat;
+        background-size: cover;
+        // background-color: #011836;
+        min-height:100vh ;
+  
+    }
+
+    .container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+
+        .intro {
+            position: absolute;
+            top: 100px;
+            font-size: 25px;
+            line-height: 56.68px;
+
+            h2 {
+                margin-bottom: 18px;
+                font-size: 40px;
+                font-weight: 700;
+                line-height: 57px;
+                letter-spacing: 0em;
+                text-align: left;
+
+            }
+
+            h4 {
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 32px;
+                letter-spacing: 0em;
+                text-align: left;
+                margin-bottom: 50px;
+            }
+
+            .started {
+                @include mainBtn;
+                font-size: 15px;
+                padding: 0px 31px;
+                line-height: 3;
+            }
+        }
+    }
+
+    .left,
+    .right {
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(0%);
+        bottom: 0;
+
+        .social {
+            display: flex;
+            flex-direction: column;
+            display: flex;
+            flex-direction: column;
+            max-width: 59px;
+            padding: 0;
+            right: 20px;
+            position: absolute;
+            top: -50px;
+
+            a {
+                color: #fff;
+
+                .icon {
+                    margin: 10px;
+                    font-size: 20px;
+                    transition: all .4s;
+
+                    &:hover {
+                        color: $mainColor;
+                    }
+                }
+            }
+        }
+
+        .mail {
+            text-transform: uppercase;
+            transform: rotate(-90deg);
+            position: absolute;
+            right: -23px;
+            bottom: 120px;
+            font-size: 13px;
+            transition: all .4s;
+            cursor: pointer;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: -7px;
+                left: -30px;
+                width: 2px;
+                height: 37px;
+                background: #fff;
+                transform: rotate(90deg);
+            }
+
+            &:hover {
+                color: $mainColor;
+            }
+        }
+    }
+
+    .right {
+        left: -13px;
+        transform: rotate(90deg);
+        width: -moz-fit-content;
+        width: fit-content;
+        bottom: 105px !important;
+        top: auto;
+        cursor: pointer;
+        font-size: 13px;
+        transition: all 0.4s;
+
+        &:hover {
+            color: $mainColor;
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            bottom: -7px;
+            width: 2px;
+            height: 37px;
+            background: #fff;
+            transform: rotate(90deg);
+            right: -33px;
+
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .hero {
+        .left, .right{
+            display: none;
+        }
+    }
+}
+@media (max-width: 992px) {
+    .heroparticles{
+        canvas{
+            min-height: 170vh;
+           }
+    }
+    .hero .container {
+        text-align: center;
+
+        .intro {
+            position: static;
+
+            .h2 {
+                margin-bottom: 20px;
+                font-size: 25px;
+                text-align: center;
+                margin-top: 100px;
+                line-height: 1.5;
+            }
+
+            .h4 {
+                text-align: center;
+                font-size: 15px;
+                font-weight: 400;
+                line-height: 20px;
+            }
+        }
+
+        img {
+            width: 60%;
+            margin: 35px auto;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .hero .container{
+        
+        .intro{
+            top:-100px;
+        }
+        img {
+            width: 60%;
+        }
+    }
+}
