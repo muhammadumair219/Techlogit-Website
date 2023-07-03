@@ -30,9 +30,9 @@ const GetinTouch = () => {
                                         </div>
                                         <span className="info">demo@gmail.com</span>
                                     </li>
-                                    <li>
-                                        <div className="icon">
-                                            <img src="./assets/images/getintouch/Vector (3).svg" alt="" />
+                                    <li className='lastli'>
+                                        <div className="icon ">
+                                            <img className='lastimg' src="./assets/images/getintouch/Vector (3).svg" alt="" />
                                         </div>
                                         <span className="info">132 Dartmouth Street Boston, Massachusetts 02156 United States</span>
                                     </li>

@@ -18,7 +18,7 @@ const Companies = () => {
                         <div className="section">
 
                             <div className="card mb-3" >
-                                <div className="row  g-0">
+                                <div className="d-flex gap-1  g-0">
                                     <div className="col-md-2 d-flex justify-content-center align-items-start">
                                         <div
                                             style={{
@@ -47,7 +47,7 @@ const Companies = () => {
 
 
                             <div className="card mb-3" >
-                                <div className="row g-0">
+                                <div className="d-flex gap-1 g-0">
                                     <div className="col-md-2 d-flex justify-content-center align-items-start">
                                         <div
                                             style={{
@@ -74,7 +74,7 @@ const Companies = () => {
                                 </div>
                             </div>
                             <div className="card mb-3" >
-                                <div className="row g-0">
+                                <div className="d-flex gap-1 g-0">
                                     <div className="col-md-2 d-flex justify-content-center align-items-start">
                                         <div
                                             style={{
@@ -101,7 +101,7 @@ const Companies = () => {
                                 </div>
                             </div>
                             <div className="card mb-3" >
-                                <div className="row g-0">
+                                <div className="d-flex gap-1 g-0">
                                     <div className="col-md-2 d-flex justify-content-center align-items-start">
                                         <div
                                             style={{

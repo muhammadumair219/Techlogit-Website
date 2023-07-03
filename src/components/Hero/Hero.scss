@@ -313,8 +313,11 @@ body{
     .project {
         margin: 0 auto !important;
     }
-    .about .row , .companies .row{
+    .about .row , .companies > .row{
         flex-direction: column-reverse !important;
+    }
+    .img-container{
+        min-width: 73px;
     }
     .about .info .title {
         margin-bottom: 10px !important;
@@ -352,7 +355,7 @@ body{
         padding: 11px 18px 18px 18px !important;
     }
     .css-ryrseu-MuiRating-root{
-        font-size: 1rem !important;
+        font-size: 12px !important;
     }
     .owl-carousel .slide-item{
         margin: 0 !important;
@@ -386,7 +389,7 @@ body{
 
     .GetinTouch .left ul li img {
         max-width: 16px !important;
-        margin: 16px !important;
+        margin: 16px ;
     }
     .GetinTouch .left ul {
         margin-bottom: 43px !important;
@@ -442,3 +445,14 @@ body{
     //     margin-right: 8px;
     // }
 }
+.list-unstyled::-webkit-scrollbar ,.clients-items::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+  .lastli{
+    margin-top: 16px;
+}
+.lastli img , .lastimg{
+    margin-top: 0 !important;
+    }

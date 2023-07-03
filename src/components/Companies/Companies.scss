@@ -90,8 +90,8 @@ position: relative;
     }
 }
 @media(max-width:767px){
-    .companies .section::after{
-        display: none;
+    .companies .section::after {
+        left: 36.5px !important;
     }
     .companies  .gapp{
         gap: 40px;
