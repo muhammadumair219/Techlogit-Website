@@ -1,5 +1,10 @@
 @import "../../utils/rules.scss";
-
+body{
+    min-width: 360px;
+}
+#root{
+    overflow: hidden;
+}
 .hero {
     position: relative;
     color: #fff;
@@ -155,10 +160,17 @@
         }
     }
 }
+@media(max-width:767px){
+    .heroparticles{
+        canvas{
+            min-height: 145vh !important;
+           }
+    }
+}
 @media (max-width: 992px) {
     .heroparticles{
         canvas{
-            min-height: 206vh;
+            min-height:180vh ;
            }
     }
     .hero .container {
@@ -223,7 +235,7 @@
     line-height: 20px;
     margin-bottom: 35px;
     }
-    .navbar ,.hero , .projects-items , .about ,.portfolio{
+    .navbar ,.hero , .projects-items , .about ,.portfolio , .companies , .GetinTouch{
         padding-left: 10px !important;
         padding-right: 10px !important;
     }
@@ -292,7 +304,7 @@
     .project {
         margin: 0 auto !important;
     }
-    .about .row{
+    .about .row , .companies .row{
         flex-direction: column-reverse !important;
     }
     .about .info .title {
@@ -339,9 +351,82 @@
     .owl-carousel .slide-item img{
         max-height: 170px;
     }
-    .me-3 {
-        font-size: 14px;
-        // padding: 12px 19px;
+    .companies .section .card .card-title{
+        font-size: 18px !important;
+        line-height: 16px !important;
+    }
+    .companies .section .card .card-text{
+        font-size: 14px !important;
+        line-height:20px !important;
+    }
+
+    .GetinTouch .left h2 {
+        font-size: 18px !important;
+        line-height: 30px !important;
+        margin-bottom: 8px !important;
+    }   
+    .GetinTouch .left .desc {
+        font-size: 14px !important;
+        line-height: 18px !important;
+        margin-bottom: 42px !important;
+    }
+    ul .info {
+        font-size: 14px !important;
+        line-height: 21px !important;
+    }
+
+    .GetinTouch .left ul li img {
+        max-width: 16px !important;
+        margin: 16px !important;
+    }
+    .GetinTouch .left ul {
+        margin-bottom: 43px !important;
+    }
+    .GetinTouch .left .social svg {
+        padding: 5px !important;
+    }
+    .form-item label {
+        font-size: 16px !important;
+        line-height: 24px !important;
+    }
+    .GetinTouch .right .form .form-field .submit {
+        font-size: 13px !important;
+        line-height: 19px !important;
+        padding: 10px 23px !important;
+    }
+    .GetinTouch  {
+        padding-bottom: 55px !important;
+    }
+
+    .footer .desc {
+        font-size: 14px !important;
+        line-height: 19px !important;
+        margin: 20px 0 25px 0 !important;
+    }
+    .footer button.contact {
+        font-size: 13px !important;
+        line-height: 19px !important;
+        padding: 10px 23px !important;
+    }
+    .footer h4 {
+    font-size: 18px !important;
+    line-height: 23px !important;
+    }
+
+    .footer a {
+        font-size: 14px !important;
+        line-height: 32px !important;
+  
+    }
+    
+    .footer .form-fields input::placeholder{
+        font-size: 14px !important;
+        line-height: 19px !important;
+    }
+    .footer .bottom {
+        font-size: 12px !important;
+        line-height: 16px !important;
+        padding: 10px !important;
     }
     // .navbar .mobile-nav .left .request {
     //     margin-right: 8px;
