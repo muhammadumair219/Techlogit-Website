@@ -21,10 +21,10 @@ const ImgSlider = ({ slideItems, items }) => {
 
                             <div className='slide-item' key={i.rating}>
                                 <div className="row g-0">
-                                    <div className="col-md-4 col-sm-5">
+                                    <div className="col-md-4 col-4">
                                         <img className="h-100" src={i.img} alt="" />
                                     </div>
-                                    <div className="col-md-8  col-sm-7 p-4">
+                                    <div className="col-md-8  col-8 contentside">
                                         <div className='rating'>
                                             <Rating name="read-only" value={i.rating} readOnly />
                                         </div>

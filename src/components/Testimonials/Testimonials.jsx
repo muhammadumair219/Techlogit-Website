@@ -29,7 +29,10 @@ const Testimonials = () => {
   return (
     <div className='testimonials pb-5'>
         <SectionHeader title="What Our Customer Says" />
-        <div className="container">
+        <div className="container desk">
+                <ImgSlider  items={2} slideItems={slideItems}/>
+        </div>
+        <div className="container mob">
                 <ImgSlider  items={1} slideItems={slideItems}/>
         </div>
     </div>

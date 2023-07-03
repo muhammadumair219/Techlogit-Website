@@ -14,7 +14,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         // background-color: #011836;
-        min-height:100vh ;
+        min-height:828px ;
   
     }
 
@@ -98,7 +98,7 @@
             transform: rotate(-90deg);
             position: absolute;
             right: -23px;
-            bottom: 120px;
+            bottom: 118px;
             font-size: 13px;
             transition: all .4s;
             cursor: pointer;
@@ -107,7 +107,7 @@
                 content: '';
                 position: absolute;
                 bottom: -7px;
-                left: -30px;
+                left: -27px;
                 width: 2px;
                 height: 37px;
                 background: #fff;
@@ -125,7 +125,7 @@
         transform: rotate(90deg);
         width: -moz-fit-content;
         width: fit-content;
-        bottom: 105px !important;
+        bottom: 109px !important;
         top: auto;
         cursor: pointer;
         font-size: 13px;
@@ -143,7 +143,7 @@
             height: 37px;
             background: #fff;
             transform: rotate(90deg);
-            right: -33px;
+            right: -27px;
 
         }
     }
@@ -158,7 +158,7 @@
 @media (max-width: 992px) {
     .heroparticles{
         canvas{
-            min-height: 170vh;
+            min-height: 206vh;
            }
     }
     .hero .container {
@@ -200,4 +200,150 @@
             width: 60%;
         }
     }
+}
+.mob{
+    display: none;
+}
+.contentside{
+    padding: 11px 18px 18px 18px !important;
+}
+@media(max-width:992px){
+    .desk{
+        display: none;
+    }
+    .mob{
+        display: block;
+    }
+    .hero .container .intro h2{
+        font-size: 22px;
+        line-height: 31px;
+    }
+    .hero .container .intro h4{
+        font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 35px;
+    }
+    .navbar ,.hero , .projects-items , .about ,.portfolio{
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+    .hero .container .intro {
+        padding-left: 10px;
+    }
+    .section-title .header span {
+     font-size: 22px !important;
+        line-height: 28px !important;
+    }
+    .services .services-items .service .bottom .title{
+        font-size: 18px !important;
+        line-height: 23px !important;
+        margin: 5px 0 10px 0 !important;
+    }
+    .projects .project .bottom .title{
+        font-size: 18px !important;
+        line-height: 23px !important;
+        margin-bottom: 8px !important;
+    }
+    .services .services-items .service .bottom .desc{
+        font-size: 14px !important;
+        line-height: 24px !important;
+        margin: 10px 0 18px !important;
+    }
+    .projects .project .bottom .desc , .portfolio .desc{
+        font-size: 14px !important;
+        line-height: 24px !important;
+    }
+    .portfolio .shuffle-details .item .title{
+        font-size: 14px !important;
+        line-height: 18px !important; 
+    }
+    .portfolio .shuffle-details .item .item-desc{
+        font-size: 18px !important;
+        line-height: 24px !important;
+    }
+    .portfolio .shuffle-items ul li{
+        font-size: 14px !important;
+        line-height: 19px !important;
+        padding: 10px 22px !important;
+    }
+    .portfolio .shuffle-items ul{
+        gap: 10px !important;
+        margin-bottom: 50px !important;
+    }
+    .projects .project .bottom {
+        margin: 20px 0 30px 0 !important;
+    }
+    .portfolio .shuffle-details .item .item-btn {
+        padding: 10px 19px !important;
+        font-size: 14px  !important;
+        line-height: 19px !important;
+    }
+    .services .services-items .service .bottom button{
+        padding: 5px 23px !important;
+        font-size: 14px !important;
+        line-height: 27px !important;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+    }
+    .services .services-items .service .bottom {
+        padding: 15px 24px 24px 24px !important;
+    }
+    .project {
+        margin: 0 auto !important;
+    }
+    .about .row{
+        flex-direction: column-reverse !important;
+    }
+    .about .info .title {
+        margin-bottom: 10px !important;
+        font-size: 22px !important;
+ text-align: center;
+        line-height: 29px !important;
+    }
+    .about .info p {
+        line-height: 24px !important;
+        font-size: 14px !important;
+        margin-bottom: 16px !important;
+        text-align: center;
+    }
+    .about .info .about-btn{
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        margin-top: 14px;
+    }
+    .owl-carousel .slide-item .desc{
+        font-size: 12px !important;
+        line-height: 19px !important;
+        margin: 8px 0 22px 0 !important;
+    }
+    .owl-carousel .slide-item .name{
+        font-size: 14px !important;
+        line-height: 10px !important;
+        margin-bottom: 9px !important;
+    }
+    .owl-carousel .slide-item .jobtitle{
+        font-size: 12px !important;
+        line-height: 9px !important;
+    }
+    .contentside{
+        padding: 11px 18px 18px 18px !important;
+    }
+    .css-ryrseu-MuiRating-root{
+        font-size: 1rem !important;
+    }
+    .owl-carousel .slide-item{
+        margin: 0 !important;
+    }
+    .owl-carousel .slide-item img{
+        max-height: 170px;
+    }
+    .me-3 {
+        font-size: 14px;
+        // padding: 12px 19px;
+    }
+    // .navbar .mobile-nav .left .request {
+    //     margin-right: 8px;
+    // }
 }

@@ -4,13 +4,14 @@
 
 @media  screen and (max-width: 992px) {
     .clients{
-        .clients-items{
-            display: block !important;
-            text-align: center;
-        }
+ .clients-items {
+    display: flex;
+    text-align: center;
+    overflow: auto;
+}
         .client{
             width: 100% !important; 
-            margin: 30px auto;
+            margin: 30px;
         }
     }
 }
