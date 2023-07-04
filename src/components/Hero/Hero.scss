@@ -160,27 +160,18 @@ body{
         }
     }
 }
-@media(max-width:767px){
+
+@media (max-width: 992px) {
     .heroparticles{
         canvas{
             min-height: 500px !important;
-            height: 630px !important;
+            height: 830px !important;
         
            }
     }
     .hero .heroparticles{
-        height: 656px !important;
+        height: 856px !important;
         min-height: 500px !important;
-    }
-    .hero .container .intro h2 {
-        padding-top: 100px !important;
-    }
-}
-@media (max-width: 992px) {
-    .heroparticles{
-        canvas{
-            min-height:180vh ;
-           }
     }
     .hero .container {
         text-align: center;
@@ -236,6 +227,7 @@ body{
         display: block;
     }
     .hero .container .intro h2{
+        padding-top: 75px !important;
         font-size: 22px;
         line-height: 31px;
     }
@@ -358,9 +350,9 @@ body{
     .owl-carousel .slide-item{
         margin: 0 !important;
     }
-    .owl-carousel .slide-item img{
-        max-height: 170px;
-    }
+    // .owl-carousel .slide-item img{
+    //     max-height: 170px;
+    // }
     .companies .section .card .card-title{
         font-size: 18px !important;
         line-height: 16px !important;
@@ -455,4 +447,21 @@ body{
 }
 .lastli img , .lastimg{
     margin-top: 0 !important;
+    }
+
+    @media(max-width:767px){
+        .heroparticles{
+            canvas{
+                min-height: 500px !important;
+                height: 630px !important;
+            
+               }
+        }
+        .hero .heroparticles{
+            height: 656px !important;
+            min-height: 500px !important;
+        }
+        .hero .container .intro h2 {
+            padding-top: 100px !important;
+        }
     }

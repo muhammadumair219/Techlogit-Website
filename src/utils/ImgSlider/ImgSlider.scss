@@ -7,8 +7,6 @@
         box-shadow: 0px 4px 11px 0px #1B75BC14;
         background-color: #fff;
         border-radius: 25px;
-        max-width: 350px;
-        width: 100%;
         margin: 0 auto !important;
         // overflow: hidden;
         img {
@@ -101,6 +99,10 @@
     }
     .owl-carousel .owl-nav .owl-next {
         right: 5%;
+    }
+    .slide-item {
+        max-width: 350px;
+        width: 100%;
     }
     // .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
     //     top: 115%;

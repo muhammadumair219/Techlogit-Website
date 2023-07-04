@@ -17,15 +17,6 @@
     z-index: 99999;
     transition: all .4s;
 
-    li {
-        padding: 8px 0;
-        border-bottom: 1px solid lightgrey;
-    }
-
-    li a {
-        padding-left: 0 !important;
-    }
-
     .nav-link {
         color: #fff;
         opacity: 1;
@@ -105,6 +96,16 @@
 
 @media (max-width: 992px) {
     .navbar {
+
+            li {
+                padding: 8px 0;
+                border-bottom: 1px solid lightgrey;
+            }
+        
+            li a {
+                padding-left: 0 !important;
+            }
+
         .mobile-nav {
             display: flex;
             width: 100%;
