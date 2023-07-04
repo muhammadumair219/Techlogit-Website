@@ -4,6 +4,7 @@ import "./Portfolio.scss"
 import PortfolioItem from './PortfolioItem/PortfolioItem'
 const Portfolio = () => {
     const [cat, setCat] = useState('mobile');
+    const [isMobile, setIsMobile] = useState(false);
     const data = [
         {cat: 'network'},
         {cat: 'mobile'},
@@ -27,6 +28,19 @@ const Portfolio = () => {
             })
         
       }, [])
+
+      useEffect(()=>{
+        window.addEventListener('resize', handleResize)
+        function handleResize() {
+            if (window.innerWidth <= 767) {
+              return  setIsMobile (true)
+            } else {
+            return  setIsMobile (false)
+            }
+        }
+
+      })
+
       useState(() => {
         console.log(cat)
       }, [cat])
@@ -41,7 +55,7 @@ const Portfolio = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aperiam, sit blanditiis architecto dolorem earum quos recusandae provident excepturi ab quae?
                 </div>
-                <div className="shuffle-container" id="shuffle-items">
+                <div className="shuffle-container " id="shuffle-items">
                     <div className="shuffle-items my-4">
                         <ul className="list-unstyled d-flex mx-auto ">
                             {/* <li className='active' data-cat="allItems" onClick={handleShuffle}>All</li> */}
@@ -52,9 +66,8 @@ const Portfolio = () => {
                         </ul>
                     </div>
                     <div className="shuffle-details">
-                        <div className="row">
+                        <div className={`${isMobile ? "d-flex mx-auto overflow-auto descHide" : "row" }`}>
                             {data.map((i, ind) => (
-
                                 <PortfolioItem i={i} ind={ind} cat={cat} />
                             ))}
                         </div>

@@ -3,7 +3,7 @@ import "./PortfolioItem.scss"
 
 const PortfolioItem = ({i,ind, cat}) => {
     return (
-        <div className={`col-lg-4 mb-4 all ${(i.cat == cat) ? 'active ' : 'allItems'}`}  key={ind}>
+        <div className={`col-md-6 col-lg-4 mb-4 all mx-auto ${(i.cat == cat) ? 'active ' : 'allItems'}`}  key={ind}>
             <div className="item text-center">
                 <img src="/assets/images/portfolio/mobile.png" alt="" />
                 <div className="info text-center mb-3" >

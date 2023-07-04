@@ -7,10 +7,13 @@
         box-shadow: 0px 4px 11px 0px #1B75BC14;
         background-color: #fff;
         border-radius: 25px;
-        margin: 0 15px;
-        overflow: hidden;
+        max-width: 350px;
+        width: 100%;
+        margin: 0 auto !important;
+        // overflow: hidden;
         img {
             max-width: 100%;
+            border-radius: 25px 0 0 25px;
             
     object-fit: cover;
         }
@@ -48,9 +51,11 @@
             position: absolute;
             top: 50%;
             transform: translateY(-50%);
-            width: 50px;
-            height: 50px;
-            
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
             border-radius: 50%;
             box-shadow: 0px 0px 10px 0px #00000014;
             background-color: #fff !important;
@@ -81,10 +86,30 @@
 }
 
 
-@media screen and (max-width: 576px ) {
-    .owl-carousel{
-        .owl-nav{
-            display: none;
-        }
+
+// @media screen and (max-width: 576px ) {
+//     .owl-carousel{
+//         .owl-nav{
+//             display: none;
+//         }
+//     }
+// }   
+
+@media(max-width:767px) {
+    .owl-carousel .owl-nav .owl-prev {
+        left: 5%;
     }
-}   
+    .owl-carousel .owl-nav .owl-next {
+        right: 5%;
+    }
+    // .owl-carousel .owl-nav .owl-prev, .owl-carousel .owl-nav .owl-next {
+    //     top: 115%;
+    // }
+    // .owl-carousel.owl-loaded {
+    //     margin-bottom: 30px;
+    // }
+
+    .owl-carousel .owl-stage-outer {
+        overflow: hidden;
+}
+}

@@ -17,6 +17,15 @@
     z-index: 99999;
     transition: all .4s;
 
+    li {
+        padding: 8px 0;
+        border-bottom: 1px solid lightgrey;
+    }
+
+    li a {
+        padding-left: 0 !important;
+    }
+
     .nav-link {
         color: #fff;
         opacity: 1;
@@ -119,7 +128,7 @@
         .navbar-collapse {
             .nav-link {
                 transition: 0ms;
-                background-color: #fff;
+                // background-color: #fff;
                
                     width: 100%;
          

@@ -8,7 +8,7 @@ const Companies = () => {
                 <div className='container'>
                     <div className="header">
 
-                        <span className='title'>Companies choose us because of our <br className='d-md-none'/> <span className='span'> Quality </span> Services </span>
+                        <span className='title'>Companies choose us because of our <span className='span'> Quality </span> Services </span>
                     </div>
                 </div>
             </div>

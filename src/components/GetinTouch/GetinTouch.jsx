@@ -89,7 +89,7 @@ const GetinTouch = () => {
                                             
                                     </div>
                                 </div>
-                                <div className="form-field d-flex justify-content-end">
+                                <div className="form-field d-flex justify-content-start">
                                     <button className='submit'> Send Message</button>
                                 </div>
 
