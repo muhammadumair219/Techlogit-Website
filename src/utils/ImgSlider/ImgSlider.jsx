@@ -7,6 +7,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import { Rating } from "@mui/material";
 const ImgSlider = ({ slideItems, items }) => {
+    const state= {
+        responsive:{
+            0: {
+                stagePadding: 50,
+            },
+            767: {
+                stagePadding: 0,
+            }
+        },
+    }
   return (
     <div className="imgSlider">
       <div className="container">
@@ -17,7 +27,7 @@ const ImgSlider = ({ slideItems, items }) => {
           nav
           rtl
           margin={8} 
-          stagePadding= {50}
+          responsive={state.responsive}
         >
           {slideItems.map((i) => (
             <div className="slide-item" key={i.rating}>
