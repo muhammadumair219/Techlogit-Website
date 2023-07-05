@@ -26,7 +26,7 @@ const ImgSlider = ({ slideItems, items }) => {
           loop
           nav
           rtl
-          margin={8} 
+          margin={20} 
           responsive={state.responsive}
         >
           {slideItems.map((i) => (

@@ -163,9 +163,12 @@ body{
 
 @media (max-width: 992px) {
     .heroparticles{
-        canvas{
-            min-height: 500px !important;
+        min-height: 500px !important;
             height: 830px !important;
+        
+            canvas{
+            height: 100% !important;
+            width: 100% !important;
         
            }
     }
@@ -248,9 +251,9 @@ body{
         line-height: 28px !important;
     }
     .services .services-items .service .bottom .title{
-        font-size: 18px !important;
-        line-height: 23px !important;
-        margin: 5px 0 10px 0 !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin: 5px 0 15px 0 !important;
     }
     .projects .project .bottom .title{
         font-size: 18px !important;
@@ -258,9 +261,9 @@ body{
         margin-bottom: 8px !important;
     }
     .services .services-items .service .bottom .desc{
-        font-size: 14px !important;
-        line-height: 24px !important;
-        margin: 10px 0 18px !important;
+        font-size: 12px !important;
+        line-height: 20px !important;
+        margin: 10px 0 15px !important;
     }
     .projects .project .bottom .desc , .portfolio .desc{
         font-size: 14px !important;
@@ -292,9 +295,9 @@ body{
         line-height: 19px !important;
     }
     .services .services-items .service .bottom button{
-        padding: 5px 23px !important;
-        font-size: 14px !important;
-        line-height: 27px !important;
+        padding: 3px 15px !important;
+        font-size: 12px !important;
+        line-height: 25px !important;
         display: flex;
         align-items: center;
         gap: 9px;

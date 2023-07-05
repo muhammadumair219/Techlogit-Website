@@ -8,13 +8,13 @@ const Services = () => {
     return (
         <div className='services'>
             <SectionHeader title="Our" span="Services" />
-            <div className="container">
+            <div className="container serviceWidth">
 
                 <div className="services-items ">
                     <div className="row">
                
 
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser1.gif" alt="" />
                                     <div className="bottom">
@@ -29,7 +29,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser2.gif" alt="" />
                                     <div className="bottom">
@@ -44,7 +44,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser3.gif" alt="" />
                                     <div className="bottom">
@@ -59,7 +59,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser4.gif" alt="" />
                                     <div className="bottom">
@@ -74,7 +74,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser5.gif" alt="" />
                                     <div className="bottom">
@@ -89,7 +89,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-md-4 mb-4">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser6.gif" alt="" />
                                     <div className="bottom">
