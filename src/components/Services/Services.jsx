@@ -1,17 +1,29 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import SectionHeader from '../SectionHeader/SectionHeader'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 import "./Services.scss"
 
 const Services = () => {
+    const [isMobile, setIsMobile] = useState(false);
+    useEffect(()=>{
+        window.addEventListener('resize', handleResize)
+        function handleResize() {
+            if (window.innerWidth <= 767) {
+              return  setIsMobile (true)
+            } else {
+            return  setIsMobile (false)
+            }
+        }
+
+      })
     return (
         <div className='services'>
             <SectionHeader title="Our" span="Services" />
             <div className="container serviceWidth">
 
                 <div className="services-items ">
-                    <div className="row">
+                    <div className={`${isMobile ? "d-flex mx-auto overflow-auto gap-4 descHide" : "row" }`}>
                
 
                             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">

@@ -95,10 +95,12 @@
 
 @media(max-width:767px) {
     .owl-carousel .owl-nav .owl-prev {
-        left: 5%;
+        display: none;
+        // left: 5%;
     }
     .owl-carousel .owl-nav .owl-next {
-        right: 5%;
+        display: none;
+        // right: 5%;
     }
     .slide-item {
         max-width: 350px;

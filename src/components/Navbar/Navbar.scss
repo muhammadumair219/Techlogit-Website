@@ -210,6 +210,21 @@
     }
     }
 }
+
+.signupBorder {
+    border-radius: 50px;
+    border: 1px solid $mainColor !important;
+    margin-top: 10px;
+    width: fit-content;
+    min-width: 120px;
+    padding: 0 !important;
+    margin: 20px auto 0;
+}
+
+.signupBorder a {
+    font-size: 18px;
+    text-align: center;
+}
 @media (min-width: 992px) and (max-width: 1200px){
     .navbar{
         .navbar-nav{
