@@ -35,7 +35,7 @@ const Services = () => {
                                             Mobile Apps Developement
                                         </h2>
                                         <p className="desc">
-                                            We follow the first and foremost priority of gathering requirements, resources, and information.
+                                            We follow the first and foremost priority of gathering requirements,......
                                         </p>
                                         <button className='button-animation'> Show more <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /></button>
                                     </div>
@@ -50,7 +50,7 @@ const Services = () => {
                                             Mobile Apps Developement
                                         </h2>
                                         <p className="desc">
-                                            We follow the first and foremost priority of gathering requirements, resources, and information.
+                                            We follow the first and foremost priority of gathering requirements,......
                                         </p>
                                         <button className='button-animation'> Show more <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /></button>
                                     </div>
@@ -65,7 +65,7 @@ const Services = () => {
                                             Mobile Apps Developement
                                         </h2>
                                         <p className="desc">
-                                            We follow the first and foremost priority of gathering requirements, resources, and information.
+                                            We follow the first and foremost priority of gathering requirements,......
                                         </p>
                                         <button className='button-animation'> Show more <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /></button>
                                     </div>
@@ -80,7 +80,7 @@ const Services = () => {
                                             Mobile Apps Developement
                                         </h2>
                                         <p className="desc">
-                                            We follow the first and foremost priority of gathering requirements, resources, and information.
+                                            We follow the first and foremost priority of gathering requirements,......
                                         </p>
                                         <button className='button-animation'> Show more <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /></button>
                                     </div>
@@ -95,7 +95,7 @@ const Services = () => {
                                             Mobile Apps Developement
                                         </h2>
                                         <p className="desc">
-                                            We follow the first and foremost priority of gathering requirements, resources, and information.
+                                            We follow the first and foremost priority of gathering requirements,......
                                         </p>
                                         <button className='button-animation'> Show more <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /></button>
                                     </div>
@@ -110,7 +110,7 @@ const Services = () => {
                                             Mobile Apps Developement
                                         </h2>
                                         <p className="desc">
-                                            We follow the first and foremost priority of gathering requirements, resources, and information.
+                                            We follow the first and foremost priority of gathering requirements,......
                                         </p>
                                         <button className='button-animation'> Show more <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /></button>
                                     </div>

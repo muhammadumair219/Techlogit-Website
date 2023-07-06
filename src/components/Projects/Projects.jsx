@@ -7,7 +7,7 @@ const Projects = () => {
     <div className='projects'>
         <SectionHeader title="Our Latest" span="Projects"/>
         <div className="projects-items">
-            <div className="container">
+            <div className="container projectWidth">
 
             <div className="row">
                 <div className="col-md-6">
