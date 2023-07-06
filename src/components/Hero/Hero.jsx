@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-7  col-md-12 position-relative">
-            <div className="intro ">
+            <div className="intro" data-aos="fade-up" data-aos-duration="3000">
               <h2>
                 Transform your ideas into
                 reality with our full-service Design to Development team.

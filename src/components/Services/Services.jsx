@@ -23,8 +23,8 @@ const Services = () => {
             <div className="container serviceWidth">
 
                 <div className="services-items ">
-                    <div className={`${isMobile ? "d-flex mx-auto overflow-auto gap-4 descHide" : "row" }`}>
-               
+                    <div class="row">
+                    {/* < className={`${isMobile ? "d-flex mx-auto overflow-auto gap-4 descHide" : > */}
 
                             <div className="col-lg-4 col-md-6 col-sm-12 mb-4">
                                 <div className="service ">
