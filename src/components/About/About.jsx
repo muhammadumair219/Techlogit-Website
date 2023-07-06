@@ -4,7 +4,7 @@ import "./About.scss"
 const About = () => {
   return (
     <div className='about py-5 mt-5'>
-      <div className="container my-4">
+      <div className="container my-4 projectWidth">
         <div className="row">
           <div className="col-md-6 scrollDownAnimation">
             <div className='d-flex align-items-center w-100 h-100'>

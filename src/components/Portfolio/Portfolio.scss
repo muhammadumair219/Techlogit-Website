@@ -91,7 +91,7 @@
                 font-weight: 400;
             }
             .item-desc{
-                font-size: 26px;
+                font-size: 20px;
                 line-height: 34px;
                 font-weight: 500;
             }
@@ -99,7 +99,7 @@
                 @include mainBtn;
                 background-color: #fff;
                 color: $mainColor;
-                padding: 12px 29px;
+                padding: 8px 20px;
                 transition: .2;
                 &:hover{
                     background-color: $mainColor;
