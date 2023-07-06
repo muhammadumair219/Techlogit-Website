@@ -6,13 +6,13 @@ const About = () => {
     <div className='about py-5 mt-5'>
       <div className="container my-4">
         <div className="row">
-          <div className="col-md-6">
+          <div className="col-md-6 scrollDownAnimation">
             <div className='d-flex align-items-center w-100 h-100'>
                 <img src="assets/images/about/Rectangle 832.png" alt="" />
             </div>
           
           </div>
-          <div className="col-md-6">
+          <div className="col-md-6 scrollAnimation">
             <div className="info">
 
               <h2 className="title ">About Us</h2>
@@ -22,7 +22,7 @@ const About = () => {
               <p>
               We move with make a Creative Strategy for help your business goal, we help to improve your income by a services we have. 
               </p>
-              <button className='about-btn'>About Us</button>
+              <button className='about-btn button-animation'>About Us</button>
             </div>
           </div>
         </div>

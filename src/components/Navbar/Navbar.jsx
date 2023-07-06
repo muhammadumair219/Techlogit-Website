@@ -129,7 +129,7 @@ const Navbar = () => {
                 Sign Up
               </a>
             </li>
-            <li className="nav-item desk ms-lg-3">
+            <li className="nav-item desk ms-lg-3 ">
               <a className="nav-link request px-2" href="#">
                 <span className="me-3">Request a Service</span>
                 <FontAwesomeIcon className="-mb-2" icon={faArrowRight} />

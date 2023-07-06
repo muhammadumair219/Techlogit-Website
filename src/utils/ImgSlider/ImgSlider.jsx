@@ -22,7 +22,7 @@ const ImgSlider = ({ slideItems, items }) => {
       <div className="container">
         <OwlCarousel
           items={items}
-          className="owl-carousel owl-theme"
+          className="owl-carousel owl-theme scrollAnimation"
           loop
           nav
           rtl

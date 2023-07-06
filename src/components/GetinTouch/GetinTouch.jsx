@@ -10,7 +10,7 @@ const GetinTouch = () => {
             <div className="container">
                 <div className="row ">
                     <div className="col-lg-5">
-                        <div className="left">
+                        <div className="left scrollDownAnimation">
 
                             <h2> Contact Information</h2>
                             <p className="desc">Lorem Ipsum is simply dummy text of the
@@ -48,7 +48,7 @@ const GetinTouch = () => {
 
                     </div>
                     <div className="col-lg-7">
-                        <div className="right">
+                        <div className="right  scrollAnimation">
                             <form className='form '>
                                 <div className="form-field d-flex justify-content-between">
                                     <div className="form-item">
@@ -90,7 +90,7 @@ const GetinTouch = () => {
                                     </div>
                                 </div>
                                 <div className="form-field d-flex justify-content-start">
-                                    <button className='submit'> Send Message</button>
+                                    <button className='submit button-animation'> Send Message</button>
                                 </div>
 
                             </form>

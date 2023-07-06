@@ -18,7 +18,7 @@ const Footer = () => {
                             Lorem Ipsum is simply dummy text of the
                             printing and typesetting industry
                         </div>
-                        <button className="btn contact">Contact Us</button>
+                        <button className="btn contact button-animation">Contact Us</button>
                     </div>
                     <div className="col-sm-6 col-lg-3 px-3">
                         <h4 className="h4">Quick Links</h4>

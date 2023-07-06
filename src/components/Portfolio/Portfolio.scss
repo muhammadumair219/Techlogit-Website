@@ -27,6 +27,20 @@
     background-position: left;
     z-index: -1;
 }
+// CTA button animation
+.button-animation {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button-animation:hover {
+    transform: scale(1.1);
+  }
+  
 .portfolio{
     position: relative;
     // background-image: url("../../../public/assets/images/ellips.png"), url("../../../public/assets/images/el-left.png");;

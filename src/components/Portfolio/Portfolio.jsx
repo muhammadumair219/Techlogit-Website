@@ -51,7 +51,7 @@ const Portfolio = () => {
         <div className='portfolio'>
             <SectionHeader title="Our Portfolio" />
             <div className="container">
-                <div className="desc text-center mx-auto">
+                <div className="desc text-center mx-auto scrollAnimation">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aperiam, sit blanditiis architecto dolorem earum quos recusandae provident excepturi ab quae?
                 </div>
@@ -59,7 +59,7 @@ const Portfolio = () => {
                     <div className="shuffle-items my-4">
                         <ul className="list-unstyled d-flex mx-auto ">
                             {/* <li className='active' data-cat="allItems" onClick={handleShuffle}>All</li> */}
-                            <li  data-cat="mobile" onClick={handleShuffle}>Mobile</li>
+                            <li data-cat="mobile" onClick={handleShuffle}>Mobile</li>
                             <li data-cat="software" onClick={handleShuffle}>Software</li>
                             <li data-cat="network" onClick={handleShuffle}>Network</li>
                             <li data-cat="security" onClick={handleShuffle}>Securiy</li>

@@ -16,15 +16,76 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
     <link rel="stylesheet" href="./assets/css/owl.theme.default.min.css">
+
+    <!-- scroll animation -->
+    <link rel="stylesheet" href="css/animate.css">
+
     <title>React App</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   
+    <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script> -->
+
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/particles.js"></script>
     <script src="./assets/js/owl.carousel.js"></script>
     <script src="./assets/js/script.js"></script>
+
+        <!-- scroll animation -->
+              <script>
+                            window.addEventListener("scroll", revealScroll);
+
+              function revealScroll() {
+                var reveals = document.querySelectorAll('.scrollAnimation');
+                for (var i = 0; i < reveals.length; i++) {
+                  var windowHeight = window.innerHeight;
+                  var revealTop = reveals[i].getBoundingClientRect().top;
+                  var revealPoint = 50;
+
+                  if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('reveal');
+                  }
+                }
+              }
+
+              // onLoad Animation
+              window.addEventListener("load", revealLoad);
+
+                function revealLoad() {
+                
+                var reveals = document.querySelectorAll('.loadAnimation');
+                for (var i = 0; i < reveals.length; i++) {
+                  var windowHeight = window.innerHeight;
+                  var revealTop = reveals[i].getBoundingClientRect().top;
+                  var revealPoint = 50;
+
+                  if (revealTop < windowHeight - revealPoint) {
+                    reveals[i].classList.add('reveal');
+                  }
+                }
+              }
+
+              // Scroll down animation
+
+              window.addEventListener('scroll', revealScrollDown);
+
+              function revealScrollDown() {
+                var reveals = document.querySelectorAll('.scrollDownAnimation');
+                for (var i = 0; i < reveals.length; i++) {
+                  var revealTop = reveals[i].getBoundingClientRect().top;
+                  var revealPoint = window.innerHeight - 50;
+
+                  if (revealTop < revealPoint) {
+                    reveals[i].classList.add('reveal');
+                  }
+                }
+              }
+            
+              </script>
   </body>
 </html>

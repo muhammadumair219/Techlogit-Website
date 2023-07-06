@@ -10,8 +10,8 @@ const Projects = () => {
             <div className="container">
 
             <div className="row">
-                <div className="col-md-6 ">
-                    <div className="project ">
+                <div className="col-md-6">
+                    <div className="project scrollDownAnimation">
                         <img src="/assets/images/projects/Rectangle 11.png" alt="" />
                         <div className="bottom">
                             <div className="title">
@@ -22,7 +22,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="project pushed-down">
+                    <div className="project pushed-down scrollAnimation">
                         <img src="/assets/images/projects/Rectangle 14.png" alt="" />
                         <div className="bottom">
                             <div className="title">
@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="project">
+                    <div className="project scrollAnimation">
                         <img src="/assets/images/projects/Rectangle 12.png" alt="" />
                         <div className="bottom">
                             <div className="title">
@@ -46,7 +46,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="project pushed-down">
+                    <div className="project pushed-down scrollAnimation">
                         <img src="/assets/images/projects/Rectangle 13.png" alt="" />
                         <div className="bottom">
                             <div className="title">

@@ -1,6 +1,21 @@
 @import "../../utils/rules.scss";
 
 .footer{
+  
+        // CTA button animation
+.button-animation {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button-animation:hover {
+    transform: scale(1.1);
+  }
+
     background-color: #000018;
     color: $greyColor;
     .desc{
@@ -26,6 +41,7 @@
         text-decoration: none;
         margin: 5px 0;
     }
+
     img{
         margin: 5px;
     }
@@ -59,4 +75,9 @@
         line-height: 21px;
         font-weight: 400;
     }
+}
+
+.footer a:hover {
+    font-size: 18px;
+    color: #fff;
 }

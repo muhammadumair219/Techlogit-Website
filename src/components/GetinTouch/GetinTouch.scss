@@ -6,6 +6,21 @@
         url("../../../public/assets/images/hero2.png");
 
         padding-bottom: 90px;
+
+        // CTA button animation
+.button-animation {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .button-animation:hover {
+    transform: scale(1.1);
+  }
+  
     .left {
         background-color: #fff;
         border-radius: 30px;

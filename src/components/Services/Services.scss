@@ -5,6 +5,20 @@
     background-size: cover;
     padding-bottom: 78px;
 
+    // CTA button animation
+    .button-animation {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .button-animation:hover {
+        transform: scale(1.1);
+      }
+
     .serviceWidth {
         max-width: 1150px;
     }

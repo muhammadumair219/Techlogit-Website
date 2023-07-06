@@ -5,6 +5,20 @@
     background-image: url("../../../public/assets/images/hero1.png"),
         url("../../../public/assets/images/hero2.png");
 
+    // CTA button animation
+    .button-animation {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .button-animation:hover {
+        transform: scale(1.1);
+      }
+      
     img {
         max-width: 100%;
     }

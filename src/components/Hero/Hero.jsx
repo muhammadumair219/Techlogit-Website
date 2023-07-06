@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-7  col-md-12 position-relative">
-            <div className="intro" data-aos="fade-up" data-aos-duration="3000">
+            <div className="intro loadAnimation">
               <h2>
                 Transform your ideas into
                 reality with our full-service Design to Development team.
@@ -36,11 +36,11 @@ const Hero = () => {
                 Odio venenatis a, non egestas ut ultrices ultrices quis orci ipsum eu tellus tempor sed amet mauris pellentesque ut vitae
                 lorep ipsum.
               </h4>
-              <button className='started'> Get started <FontAwesomeIcon className="mt-3 ms-2" icon={faArrowRight} /></button>
+              <button className='started button-animation'> Get started <FontAwesomeIcon className="mt-3 ms-2" icon={faArrowRight} /></button>
             </div>
 
           </div>
-          <div className="col-lg-5 col-md-12">
+          <div className="col-lg-5 col-md-12 loadAnimation">
             <img src="./assets/images/Group 1000001897.png" alt="" />
           </div>
         </div>

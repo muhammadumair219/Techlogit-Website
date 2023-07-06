@@ -7,14 +7,14 @@ const Testimonials = () => {
         {
           img: './assets/images/slide1.png',
           rating: 4,
-          desc: 'descriodescriodescriodescriodescriodescriodescriodescriodescriodescriodescriodescrio',
+          desc: 'descriodescriodescriodescriodescriodescriodescriodescriodescriodescrio',
           name: "mohammed",
           jobtitle: "web developer"
         },
         {
           img: './assets/images/slide1.png',
           rating: 2,
-          desc: "descriodescriodescriodescriodescriodescriodescriodescriodescriodescriodescriodescrio",
+          desc: "descriodescriodescriodescriodescriodescriodescriodescriodescriodescrio",
           name: "mohammed",
           jobtitle: "web developer"
         },

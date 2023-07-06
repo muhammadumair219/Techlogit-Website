@@ -11,6 +11,20 @@ body{
     // background-image: url("../../../public/assets/images/hero/bg.png");
    
     background-color: #011836;
+
+    // CTA button animation
+    .button-animation {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        border: none;
+        cursor: pointer;
+        transition: transform 0.3s ease-in-out;
+      }
+      
+      .button-animation:hover {
+        transform: scale(1.1);
+      }
     img{
         display: block;
         margin-left: auto;
@@ -153,6 +167,33 @@ body{
         }
     }
 }
+
+// scrollup-animation
+.scrollAnimation, .loadAnimation {
+    opacity: 1;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .scrollAnimation.reveal,  .loadAnimation.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+//   scrolldown animation
+.scrollDownAnimation {
+    opacity: 1;
+    transform: translateY(-50px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+  }
+  
+  .scrollDownAnimation.reveal {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+
 @media (max-width: 1200px) {
     .hero {
         .left, .right{
