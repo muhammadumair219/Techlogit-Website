@@ -5,20 +5,20 @@ window.onload = function () {
   {
     particles: {
       number: {
-        value: 189,
+        value: 50,
         density: {
           enable: true,
           value_area: 800
         }
       },
       color: {
-        value: "#ffffff"
+        value: "#078bf2"
       },
       shape: {
         type: "circle",
         stroke: {
           width: 0,
-          color: "#d24a4a"
+          color: "#fff",
         },
         polygon: {
           nb_sides: 12
@@ -30,7 +30,7 @@ window.onload = function () {
         }
       },
       opacity: {
-        value: 0.08017060304327614,
+        value: 0.38017060304327614,
         random: false,
         anim: {
           enable: false,
@@ -40,7 +40,7 @@ window.onload = function () {
         }
       },
       size: {
-        value: 2,
+        value: 3,
         random: true,
         anim: {
           enable: true,
@@ -51,9 +51,9 @@ window.onload = function () {
       },
       line_linked: {
         enable: true,
-        distance: 224.4776885211732,
-        color: "#0f256e",
-        opacity: 0.82068241217310456,
+        distance: 400.4776885211732,
+        color: "#078bf2",
+        opacity: 0.52068241217310456,
         width: 1.122388442605866
       },
       move: {
