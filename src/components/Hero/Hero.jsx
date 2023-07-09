@@ -36,7 +36,7 @@ const Hero = () => {
                 Odio venenatis a, non egestas ut ultrices ultrices quis orci ipsum eu tellus tempor sed amet mauris pellentesque ut vitae
                 lorep ipsum.
               </h4>
-              <button className='started button-animation'> Get started <FontAwesomeIcon className="mt-3 ms-2" icon={faArrowRight} /></button>
+              <button className='started button-animation callToAction'> Get started <FontAwesomeIcon className="mt-3 ms-2" icon={faArrowRight} /></button>
             </div>
 
           </div>
@@ -47,9 +47,9 @@ const Hero = () => {
       </div>
       <div className="left text-center">
         <ul className="social">
-          <a href='#'><FontAwesomeIcon className="icon" icon={faFacebookF} /></a>
-          <a href='#'><FontAwesomeIcon className="icon" icon={faTwitter} /></a>
-          <a href='#'><FontAwesomeIcon className="icon" icon={faInstagram} /></a>
+          <a href='#'><FontAwesomeIcon className="icon social-icons" icon={faFacebookF} /></a>
+          <a href='#'><FontAwesomeIcon className="icon social-icons" icon={faTwitter} /></a>
+          <a href='#'><FontAwesomeIcon className="icon social-icons" icon={faInstagram} /></a>
         </ul>
         <div className="mail">
           INFO@TECHLOGIT

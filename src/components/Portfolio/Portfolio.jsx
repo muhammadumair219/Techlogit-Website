@@ -56,7 +56,7 @@ const Portfolio = () => {
                     Aperiam, sit blanditiis architecto dolorem earum quos recusandae provident excepturi ab quae?
                 </div>
                 <div className="shuffle-container " id="shuffle-items">
-                    <div className="shuffle-items my-4">
+                    <div className="shuffle-items my-3">
                         <ul className="list-unstyled d-flex mx-auto ">
                             {/* <li className='active' data-cat="allItems" onClick={handleShuffle}>All</li> */}
                             <li data-cat="mobile" onClick={handleShuffle}>Mobile</li>

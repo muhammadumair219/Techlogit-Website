@@ -21,6 +21,10 @@
       
     img {
         max-width: 100%;
+        border-radius: 25px;
+    }
+    img:hover {
+        box-shadow: 0 0 25px rgba(94, 138, 255, 0.3)
     }
 
     .info {

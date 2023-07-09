@@ -130,3 +130,10 @@ $(".owl-carousel").owlCarousel({
   },
   responsiveBaseElement: 'body'
 })
+
+// animation for social icons on hero section
+
+// window.addEventListener('load', function() {
+//   var slideInElement = document.querySelector('.slide-in');
+//   slideInElement.style.visibility = 'visible';
+// });

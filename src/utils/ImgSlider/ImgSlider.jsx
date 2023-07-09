@@ -13,7 +13,7 @@ const ImgSlider = ({ slideItems, items }) => {
                 stagePadding: 50,
             },
             767: {
-                stagePadding: 0,
+                stagePadding: 50,
             }
         },
     }

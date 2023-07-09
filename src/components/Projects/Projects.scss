@@ -34,31 +34,36 @@
     // background-position: top right, bottom left;
     // background-repeat: no-repeat;
 
-    .projectWidth {
-        max-width: 950px !important;
-    }
+    // .projectWidth {
+    //     max-width: 950px !important;
+    // }
     .project {
 
         img {
             max-width: 100%;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
+            // border-bottom-left-radius: 20px;
+            // border-bottom-right-radius: 20px;
+            border-radius: 20px;
+        }
+
+        img:hover {
+            box-shadow: 0 0 25px rgba(94, 138, 255, 0.3)
         }
 
         .bottom {
-            margin: 25px 0 25px 0;
+            margin: 40px 0 30px 0;
 
             .title {
                 margin-bottom: 18px;
-                font-size: 18px;
+                font-size: 30px;
                 font-weight: 700;
-                line-height: 25px;
+                line-height: 39.6px;
             }
 
             .desc {
-                font-size: 14px;
+                font-size: 18px;
                 font-weight: 400;
-                line-height: 20px;
+                line-height: 30px;
                 letter-spacing: 0em;
                 text-align: left;
                 color: $greyColor;

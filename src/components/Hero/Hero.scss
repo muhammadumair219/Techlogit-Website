@@ -13,18 +13,45 @@ body{
     background-color: #011836;
 
     // CTA button animation
-    .button-animation {
-        display: inline-block;
-        padding: 10px 20px;
-        font-size: 18px;
-        border: none;
-        cursor: pointer;
-        transition: transform 0.3s ease-in-out;
+    @keyframes bounce {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-20px); }
+        100% { transform: translateY(0); }
       }
       
-      .button-animation:hover {
-        transform: scale(1.1);
+      .social-icons {
+        position: relative;
+        animation: bounce 4s infinite;
       }
+
+      // animation for social icons on hero section
+
+    //   @keyframes slideInFromRight {
+    //     0% {
+    //       transform: translateX(100%);
+    //       opacity: 0;
+    //     }
+    //     100% {
+    //       transform: translateX(0);
+    //       opacity: 1;
+    //     }
+    //   }
+      
+    //   .slide-in {
+    //     animation: slideInFromRight 2s forwards;
+    //     visibility: hidden;
+    //   }
+
+    .callToAction {
+        animation: fadeAnimation 2s infinite;
+      }
+
+      @keyframes fadeAnimation {
+        0%, 100% { opacity: 0; }
+        50% { opacity: 1; }
+      }
+    //   till here
+
     img{
         display: block;
         margin-left: auto;
@@ -71,7 +98,7 @@ body{
 
             .started {
                 @include mainBtn;
-                font-size: 15px;
+                font-size: 18px;
                 padding: 0px 31px;
                 line-height: 3;
             }
