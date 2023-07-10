@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import "./Hero.scss"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import Aos from 'aos'
 import { faFacebookF, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 const Hero = () => {
@@ -40,7 +41,7 @@ const Hero = () => {
             </div>
 
           </div>
-          <div className="col-lg-5 col-md-12"  data-aos="zoom-out" data-aos-duration="1000">
+          <div className="col-lg-5 col-md-12" data-aos="zoom-in-left" data-aos-duration="1000">
             <img src="./assets/images/Group 1000001897.png" alt="" />
           </div>
         </div>
