@@ -11,7 +11,7 @@ const Projects = () => {
 
             <div className="row">
                 <div className="col-md-6">
-                    <div className="project scrollDownAnimation">
+                    <div className="project" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                         <img src="/assets/images/projects/Rectangle 11.png" alt="" />
                         <div className="bottom">
                             <div className="title">
@@ -22,7 +22,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="project pushed-down scrollAnimation">
+                    <div className="project pushed-down" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                         <img src="/assets/images/projects/Rectangle 14.png" alt="" />
                         <div className="bottom">
                             <div className="title">
@@ -35,7 +35,7 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className="col-md-6">
-                    <div className="project scrollAnimation">
+                    <div className="project" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                         <img src="/assets/images/projects/Rectangle 12.png" alt="" />
                         <div className="bottom">
                             <div className="title">
@@ -46,7 +46,7 @@ const Projects = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="project pushed-down scrollAnimation">
+                    <div className="project pushed-down" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                         <img src="/assets/images/projects/Rectangle 13.png" alt="" />
                         <div className="bottom">
                             <div className="title">

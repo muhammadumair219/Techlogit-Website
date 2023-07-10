@@ -6,13 +6,13 @@ const About = () => {
     <div className='about py-5 mt-5'>
       <div className="container my-4 projectWidth">
         <div className="row">
-          <div className="col-md-6 scrollDownAnimation">
+          <div className="col-md-6" data-aos="flip-left" data-aos-duration="1000">
             <div className='d-flex align-items-center w-100 h-100'>
                 <img src="assets/images/about/Rectangle 832.png" alt="" />
             </div>
           
           </div>
-          <div className="col-md-6 scrollAnimation ">
+          <div className="col-md-6" data-aos="fade-down-left" data-aos-duration="1000">
             <div className="info">
 
               <h2 className="title ">About Us</h2>

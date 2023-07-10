@@ -27,7 +27,7 @@ const Services = () => {
                     <div class="row">
                     {/* < className={`${isMobile ? "d-flex mx-auto overflow-auto gap-4 descHide" : > */}
 
-                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4 scrollAnimation">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser1.gif" alt="" />
                                     <div className="bottom">
@@ -42,7 +42,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4 scrollAnimation">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser2.gif" alt="" />
                                     <div className="bottom">
@@ -57,7 +57,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4 scrollAnimation">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser3.gif" alt="" />
                                     <div className="bottom">
@@ -72,7 +72,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4 scrollAnimation">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser4.gif" alt="" />
                                     <div className="bottom">
@@ -87,7 +87,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4 scrollAnimation">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser5.gif" alt="" />
                                     <div className="bottom">
@@ -102,7 +102,7 @@ const Services = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4 scrollAnimation">
+                            <div className="col-lg-4 col-md-6 col-sm-12 mb-4" data-aos="fade-up" data-aos-duration="1000">
                                 <div className="service ">
                                     <img className="img" src="/assets/images/ser6.gif" alt="" />
                                     <div className="bottom">

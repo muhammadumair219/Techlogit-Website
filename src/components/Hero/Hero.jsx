@@ -27,7 +27,7 @@ const Hero = () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-7  col-md-12 position-relative">
-            <div className="intro loadAnimation">
+            <div className="intro" data-aos="zoom-in-right" data-aos-duration="1000">
               <h2>
                 Transform your ideas into
                 reality with our full-service Design to Development team.
@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
           </div>
-          <div className="col-lg-5 col-md-12 loadAnimation">
+          <div className="col-lg-5 col-md-12" data-aos="zoom-in" data-aos-duration="1000">
             <img src="./assets/images/Group 1000001897.png" alt="" />
           </div>
         </div>

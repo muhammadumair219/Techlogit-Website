@@ -4,7 +4,7 @@ import "./PortfolioItem.scss"
 const PortfolioItem = ({i,ind, cat}) => {
     return (
         <div className={`col-md-6 col-lg-4 mb-4 all mx-auto ${(i.cat == cat) ? 'active ' : 'allItems'}`}  key={ind}>
-            <div className="item text-center scrollAnimation">
+            <div className="item text-center" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                 <img src="/assets/images/portfolio/mobile.png" alt="" />
                 <div className="info text-center mb-3" >
                     <h5 className="title">{i.cat}</h5>

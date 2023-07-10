@@ -51,7 +51,7 @@ const Portfolio = () => {
         <div className='portfolio'>
             <SectionHeader title="Our Portfolio" />
             <div className="container">
-                <div className="desc text-center mx-auto scrollAnimation">
+                <div className="desc text-center mx-auto" data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Aperiam, sit blanditiis architecto dolorem earum quos recusandae provident excepturi ab quae?
                 </div>
