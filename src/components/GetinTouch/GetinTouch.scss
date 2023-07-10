@@ -21,6 +21,18 @@
     transform: scale(1.1);
   }
   
+  // CTA button bounce animation
+  @keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .social-icons {
+    position: relative;
+    animation: bounce 4s infinite;
+  }
+  
   .left:hover {
     box-shadow: 0 0 25px rgba(94, 138, 255, 0.3)
   }

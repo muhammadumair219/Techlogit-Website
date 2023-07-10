@@ -17,6 +17,7 @@ const Services = () => {
         }
 
       })
+      
     return (
         <div className='services'>
             <SectionHeader  title="Our" span="Services" />

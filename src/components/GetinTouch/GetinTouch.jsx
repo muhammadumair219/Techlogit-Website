@@ -38,9 +38,9 @@ const GetinTouch = () => {
                                     </li>
                                 </ul>
                                 <div className="social d-flex align-items-center justify-content-flex-start gap-3">
-                                    <FontAwesomeIcon className="-mb-2" icon={faTwitter} />
-                                    <FontAwesomeIcon className="-mb-2" icon={faInstagram} />
-                                    <FontAwesomeIcon className="-mb-2" icon={faDiscord} />
+                                    <FontAwesomeIcon className="-mb-2 social-icons" icon={faTwitter} />
+                                    <FontAwesomeIcon className="-mb-2 social-icons" icon={faInstagram} />
+                                    <FontAwesomeIcon className="-mb-2 social-icons" icon={faDiscord} />
 
                                 </div>  
                             </div>

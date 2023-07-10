@@ -12,7 +12,7 @@ body{
    
     background-color: #011836;
 
-    // CTA button animation
+    // CTA button bounce animation
     @keyframes bounce {
         0% { transform: translateY(0); }
         50% { transform: translateY(-20px); }
@@ -421,9 +421,9 @@ body{
     .owl-carousel .slide-item{
         margin: 0 !important;
     }
-    // .owl-carousel .slide-item img{
-    //     max-height: 170px;
-    // }
+    .owl-carousel .slide-item img{
+        max-height: 170px;
+    }
     .companies .section .card .card-title{
         font-size: 18px !important;
         line-height: 16px !important;

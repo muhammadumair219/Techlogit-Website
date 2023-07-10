@@ -10,10 +10,10 @@ const ImgSlider = ({ slideItems, items }) => {
     const state= {
         responsive:{
             0: {
-                stagePadding: 50,
+                stagePadding: 0,
             },
             767: {
-                stagePadding: 50,
+                stagePadding: 0,
             }
         },
     }

@@ -44,10 +44,12 @@
             // border-bottom-left-radius: 20px;
             // border-bottom-right-radius: 20px;
             border-radius: 20px;
+            transition: transform 0.3s ease-in-out
         }
 
         img:hover {
-            box-shadow: 0 0 25px rgba(94, 138, 255, 0.3)
+            // box-shadow: 0 0 25px rgba(94, 138, 255, 0.2);
+            transform: scale(1.01)
         }
 
         .bottom {

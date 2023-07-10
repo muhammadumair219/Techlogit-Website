@@ -50,6 +50,10 @@
         padding-bottom: 12px !important;
     }
     
+
+    .scrollAnimation:hover {
+        transform: scale(1.01)
+    }
     .desc{
         max-width:891px;
         margin: auto;

@@ -2,6 +2,18 @@
     margin-bottom: 70px;
 }
 
+// CTA button animation
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+    100% { transform: translateY(0); }
+  }
+  
+  .clients-icons {
+    position: relative;
+    animation: bounce 4s infinite;
+  }
+
 @media  screen and (max-width: 992px) {
     .clients{
  .clients-items {

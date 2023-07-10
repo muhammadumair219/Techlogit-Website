@@ -12,7 +12,7 @@ const About = () => {
             </div>
           
           </div>
-          <div className="col-md-6 scrollAnimation">
+          <div className="col-md-6 scrollAnimation ">
             <div className="info">
 
               <h2 className="title ">About Us</h2>
