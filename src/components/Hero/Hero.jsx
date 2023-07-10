@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
 
           </div>
-          <div className="col-lg-5 col-md-12" data-aos="zoom-in" data-aos-duration="1000">
+          <div className="col-lg-5 col-md-12"  data-aos="zoom-out" data-aos-duration="1000">
             <img src="./assets/images/Group 1000001897.png" alt="" />
           </div>
         </div>
