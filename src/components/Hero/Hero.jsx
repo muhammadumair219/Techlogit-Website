@@ -37,7 +37,7 @@ const Hero = () => {
                 Odio venenatis a, non egestas ut ultrices ultrices quis orci ipsum eu tellus tempor sed amet mauris pellentesque ut vitae
                 lorep ipsum.
               </h4>
-              <button className='started button-animation callToAction'> Get started <FontAwesomeIcon className="mt-3 ms-2" icon={faArrowRight} /></button>
+              <button className='started button-animation'> Get started <FontAwesomeIcon className="mt-3 ms-2" icon={faArrowRight} /></button>
             </div>
 
           </div>
