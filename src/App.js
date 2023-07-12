@@ -1,20 +1,18 @@
 import { Route, Routes } from "react-router-dom";
-import Home from "./components/Home/Home";
-import "./index.scss"
-import Contact from "./utils/Contact/Contact";
+import "./index.scss";
 import ServicePage from "./pages/ServicePage";
-
-
+import SingleProduct from "./pages/SingleProduct";
+import HomePage from "./pages/HomePage";
 
 function App() {
-
   return (
-<>
-<Routes>
-        <Route exact path="/" element={<Home/>}></Route>
-        <Route exact path="/services" element={<ServicePage/>}></Route>
+    <>
+      <Routes>
+        <Route exact path="/" element={<HomePage />}></Route>
+        <Route exact path="/Services" element={<ServicePage />}></Route>
+        <Route exact path="/SingleProduct" element={<SingleProduct/>}></Route>
       </Routes>
-</>
+    </>
   );
 }
 

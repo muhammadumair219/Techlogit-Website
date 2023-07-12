@@ -8,6 +8,7 @@
 .show .request ,.show .login ,.show .signup{
     margin: 5px 0;
 }
+
 .navbar {
     background-color: transparent;
     position: fixed !important;
@@ -23,6 +24,18 @@
         transition: 2s;
         position: relative;
         width: max-content;
+
+        .text-black{
+            color: #1f1f1f !important;
+        }
+
+        .text-white{
+            color: #fff;
+        }
+
+        .text-blue{
+            color: $mainColor !important;
+        }
 
         &.login{
  
@@ -68,6 +81,11 @@
         opacity: 1;
     }
 
+    .text-main{
+        color: $mainColor !important;
+        border: 1.5px solid $mainColor !important;
+    }
+
     .nav-link.request {
         background-color: $mainColor;
         border: 1.5px solid $mainColor;
@@ -76,6 +94,7 @@
 
     &.active {
         background-color: #fff;
+        color: $mainColor;
 
    
         .mobile-nav{
@@ -88,7 +107,7 @@
         }
         .nav-link:not(.request) {
             border-color: $mainColor;
-            color: $mainColor;
+            color: $mainColor !important;
             opacity: 1;
         }
     }

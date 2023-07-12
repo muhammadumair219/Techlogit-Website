@@ -3,9 +3,14 @@ import "./GetinTouch.scss"
 import SectionHeader from '../SectionHeader/SectionHeader'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDiscord, faInstagram, faTwitter } from '@fortawesome/free-brands-svg-icons'
-const GetinTouch = () => {
+const GetinTouch = (props) => {
+    // console.log("get in touch");
+    // console.log(props.variant);
+    const backgroundImage = props.variant === 'outline'
+    ? '#fff'
+    : 'url("../../../public/assets/images/hero1.png"), url("../../../public/assets/images/hero2.png")';
     return (
-        <div className='GetinTouch'>
+        <div className='GetinTouch' style={{ backgroundImage: `url(${backgroundImage})` }}>
             <SectionHeader title="Get in Touch" />
             <div className="container">
                 <div className="row ">

@@ -1,6 +1,7 @@
 @import "../../utils/rules.scss";
 body{
     min-width: 360px;
+    height: auto !important;
 }
 #root{
     overflow: hidden;

@@ -1,0 +1,35 @@
+
+.productBackground {
+    background-size: cover;
+    background-image: url("../../public/assets/images/hero1.png"),
+        url("../../public/assets/images/hero2.png");
+        margin-top: 85px;
+}
+
+.productImage img {
+    margin: 90px 0;
+}
+
+.productContent h1 {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 46px;
+    letter-spacing: 0em;
+}
+
+.productContent h3 {
+font-size: 26px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+color: #1B75BC;
+padding-top: 8px;
+}
+
+.productContent p {
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+padding-top: 26px;
+}

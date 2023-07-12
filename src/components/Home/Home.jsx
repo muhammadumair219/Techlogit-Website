@@ -13,11 +13,10 @@ import Footer from '../Footer/Footer'
 import "./Home.scss"
 const Home = () => {
 
- 
 
   return (
     <div  className='home'>
-        <Navbar />
+        <Navbar/>
         <Hero />
         <Services /> 
         <Projects />
@@ -26,7 +25,7 @@ const Home = () => {
         <Portfolio />
         <Testimonials />
         <Companies />
-        <GetinTouch />
+        <GetinTouch variant='inline' />
         <Footer />
     </div>
   )

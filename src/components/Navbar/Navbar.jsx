@@ -2,8 +2,10 @@ import React, { useEffect, useState } from "react";
 import "./Navbar.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { useLocation } from "react-router-dom";
 
-const Navbar = () => {
+const Navbar = (className) => {
+  const location = useLocation();
   const [isActive, setIsActive] = useState(false);
 
   const handleClick = () => {
@@ -11,11 +13,11 @@ const Navbar = () => {
   };
 
   useEffect(() => {
+    console.log("location", location);
     let nav = document.getElementById("navbar");
-  
+
     const handleScroll = () => {
       if (window.scrollY > 50) {
-        console.log("navbar");
         console.log(isActive);
         nav.classList.add("active");
       } else {
@@ -23,11 +25,11 @@ const Navbar = () => {
         nav.classList.remove("active");
       }
     };
-  
+
     if (isActive === false) {
       window.addEventListener("scroll", handleScroll);
     }
-  
+
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
@@ -74,36 +76,66 @@ const Navbar = () => {
           <ul className="navbar-nav me-auto mb-2 mb-lg-0 ">
             <li className="nav-item ">
               <a
-                className="nav-link left px-4 active"
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link left px-4 ${
+                  location.pathname === "/" && "active"} `}
                 aria-current="page"
-                href="#"
+                href="/"
               >
                 Home
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link left px-4" href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link left px-4  ${
+                  location.pathname === "/services" && "active"}`}
+                href="/services"
+              >
                 Services
               </a>
             </li>
 
             <li className="nav-item ">
-              <a className="nav-link left px-4" href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link left px-4 ${
+                  location.pathname === "/SingleProduct" && "active"} `}
+                href="/SingleProduct"
+              >
                 Our Projects
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link left px-4" href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link left px-4`}
+                href="#"
+              >
                 How it Work
               </a>
             </li>
             <li className="nav-item ">
-              <a className="nav-link left px-4" href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link left px-4`}
+                href="#"
+              >
                 Contact Us
               </a>
             </li>
             <li className="nav-item mob">
-              <a className="nav-link left px-4" href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link left px-4`}
+                href="#"
+              >
                 Login
               </a>
             </li>
@@ -111,8 +143,9 @@ const Navbar = () => {
                             <a className="nav-link left px-4" href="#" >Signup</a>
                         </li> */}
             <li className="nav-item mob signupBorder">
-              <a className="nav-link left" href="#">
-                {" "}
+              <a 
+              className={` nav-link left`}
+         href="#">
                 <span> Sign up</span>
                 {/* <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /> */}
               </a>
@@ -120,12 +153,16 @@ const Navbar = () => {
           </ul>
           <ul className="d-flex navbar-nav  mb-2 mb-lg-0">
             <li className="nav-item desk">
-              <a className="nav-link login" href="#">
+              <a className={`${
+                location.pathname === "/" ? "text-white " : "text-black"
+              } nav-link login`} href="#">
                 Log in
               </a>
             </li>
             <li className="nav-item desk ms-lg-3">
-              <a className="nav-link signup" href="#">
+              <a className={`${
+                location.pathname === "/" ? "text-white " : "text-main"
+              } nav-link signup`} href="#">
                 Sign Up
               </a>
             </li>
