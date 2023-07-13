@@ -8,6 +8,13 @@
 
 .productImage img {
     margin: 90px 0;
+    max-width: 100%;
+    width: 100%;
+}
+
+.productContent {
+    display: flex;
+    align-items: center;
 }
 
 .productContent h1 {
@@ -32,4 +39,77 @@ font-weight: 400;
 line-height: 28px;
 letter-spacing: 0em;
 padding-top: 26px;
+}
+
+// .spaceAround {
+//     padding: 12px 26px;
+// }
+
+.payNow {
+    // width: 225px;
+    // height: 48px;
+    padding: 12px 80px;
+    border-radius: 50px;
+    background-color: #1B75BC;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+    overflow: hidden;
+    position: relative;
+}
+
+.payNow::before {
+    content: "10% Discount";
+    width: 10px;
+    background-color: #EE5B5B;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    position: absolute;
+    left: 140px;
+    width: 45%;
+    transform: rotate(45deg);
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.payLater {
+    padding: 12px 80px;
+    border-radius: 50px;
+    background: #E2EDF8;
+    color: #1B75BC;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.01em;
+}
+
+.nowLater {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    gap: 23px;
+}
+
+.discountButton {
+    margin-top: 30px;
+    border: 1px dashed #1B75BC;
+    padding: 12px 110px;
+    background-color: transparent;
+    border-radius: 50px;
+    color: #1B75BC;
+}
+
+.discount {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }

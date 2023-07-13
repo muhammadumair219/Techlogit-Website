@@ -55,7 +55,7 @@ const Navbar = (className) => {
               <FontAwesomeIcon className="-mb-2" icon={faArrowRight} />
             </a>
             <button
-              className="navbar-toggler"
+             className="navbar-toggler"
               onClick={handleClick}
               type="button"
               data-bs-toggle="collapse"
@@ -65,9 +65,17 @@ const Navbar = (className) => {
               aria-label="Toggle navigation"
             >
               <span className="navbar-toggler-icon"></span>
-              <span className="line line1 d-sm-inline-block d-lg-none"></span>
-              <span className="line line2 d-sm-inline-block d-lg-none"></span>
-              <span className="line line3 d-sm-inline-block d-lg-none"></span>
+              <span  className={`${
+                location.pathname !== "/" && "color-main"
+              } line line1 d-sm-inline-block d-lg-none`}></span>
+              <span  className={`${
+                location.pathname !== "/" && "color-main"
+              } line line2 d-sm-inline-block d-lg-none`}></span>
+              <span 
+               className={`${
+                location.pathname !== "/" && "color-main"
+              } line line3 d-sm-inline-block d-lg-none`}
+              ></span>
             </button>
           </div>
         </div>
@@ -78,8 +86,7 @@ const Navbar = (className) => {
               <a
                 className={`${
                   location.pathname === "/" ? "text-white " : "text-black"
-                } nav-link left px-4 ${
-                  location.pathname === "/" && "active"} `}
+                } nav-link left px-4 ${location.pathname === "/" && "active"} `}
                 aria-current="page"
                 href="/"
               >
@@ -91,7 +98,8 @@ const Navbar = (className) => {
                 className={`${
                   location.pathname === "/" ? "text-white " : "text-black"
                 } nav-link left px-4  ${
-                  location.pathname === "/services" && "active"}`}
+                  location.pathname === "/services" && "active"
+                }`}
                 href="/services"
               >
                 Services
@@ -103,7 +111,8 @@ const Navbar = (className) => {
                 className={`${
                   location.pathname === "/" ? "text-white " : "text-black"
                 } nav-link left px-4 ${
-                  location.pathname === "/SingleProduct" && "active"} `}
+                  location.pathname === "/SingleProduct" && "active"
+                } `}
                 href="/SingleProduct"
               >
                 Our Projects
@@ -143,9 +152,7 @@ const Navbar = (className) => {
                             <a className="nav-link left px-4" href="#" >Signup</a>
                         </li> */}
             <li className="nav-item mob signupBorder">
-              <a 
-              className={` nav-link left`}
-         href="#">
+              <a className={` nav-link left`} href="#">
                 <span> Sign up</span>
                 {/* <FontAwesomeIcon className="-mb-2" icon={faArrowRight} /> */}
               </a>
@@ -153,16 +160,22 @@ const Navbar = (className) => {
           </ul>
           <ul className="d-flex navbar-nav  mb-2 mb-lg-0">
             <li className="nav-item desk">
-              <a className={`${
-                location.pathname === "/" ? "text-white " : "text-black"
-              } nav-link login`} href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-black"
+                } nav-link login`}
+                href="#"
+              >
                 Log in
               </a>
             </li>
             <li className="nav-item desk ms-lg-3">
-              <a className={`${
-                location.pathname === "/" ? "text-white " : "text-main"
-              } nav-link signup`} href="#">
+              <a
+                className={`${
+                  location.pathname === "/" ? "text-white " : "text-main"
+                } nav-link signup`}
+                href="#"
+              >
                 Sign Up
               </a>
             </li>

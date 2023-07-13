@@ -164,7 +164,9 @@
             }
 
         }
-
+        .color-main{
+            background-color: $mainColor !important;
+        }
         .navbar-toggler {
             position: relative;
             outline: none;
@@ -177,13 +179,12 @@
             .line {
                 height: 3px;
                 width: 30px;
-                background-color: #fff;
                 position: absolute;
+                background-color: #fff;
                 right: 0;
                 transition: all .4s ease;
                 transform-origin: 100% 50%;
             }
-
             .line1 {
                 top: 0;
                 margin-top: -4px;
