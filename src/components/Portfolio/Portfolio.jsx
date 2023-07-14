@@ -59,7 +59,7 @@ const Portfolio = () => {
                     <div className="shuffle-items my-3">
                         <ul className="list-unstyled d-flex mx-auto ">
                             {/* <li className='active' data-cat="allItems" onClick={handleShuffle}>All</li> */}
-                            <li data-cat="mobile" onClick={handleShuffle}>Mobile</li>
+                            <li className="fListMargin" data-cat="mobile" onClick={handleShuffle}>Mobile</li>
                             <li data-cat="software" onClick={handleShuffle}>Software</li>
                             <li data-cat="network" onClick={handleShuffle}>Network</li>
                             <li data-cat="security" onClick={handleShuffle}>Securiy</li>

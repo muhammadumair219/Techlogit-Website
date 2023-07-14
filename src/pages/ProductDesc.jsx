@@ -34,7 +34,7 @@ function ProductDesc() {
           </p>
 
           <div className="row">
-            <div className="col-lg-6 choosePro" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div className="col-lg-6 faq " data-aos="zoom-in-up" data-aos-duration="1000">
               <h4>Why choose product?</h4>
               <p>
                 • Creat by cotton fibric with soft and smooth <br/>
@@ -42,7 +42,7 @@ function ProductDesc() {
                 • Downloadable/Digital Products, Virtual Products
               </p>
             </div>
-            <div className="col-lg-6 choosePro" data-aos="zoom-in-up" data-aos-duration="1500">
+            <div className="col-lg-6 faq choosePro" data-aos="zoom-in-up" data-aos-duration="1500">
             <h4>Why choose product?</h4>
               <p>
                 • Creat by cotton fibric with soft and smooth <br/>

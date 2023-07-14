@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar/Navbar";
 import GetinTouch from "../components/GetinTouch/GetinTouch";
 import Footer from "../components/Footer/Footer";
+import Contact from "../utils/Contact/Contact";
 import "./ServicesPage.scss";
 
 function ServicePage() {
@@ -218,6 +219,7 @@ function ServicePage() {
         </div>
         <GetinTouch variant='outline'></GetinTouch>
         <Footer></Footer>
+        <Contact></Contact>
       </div>
     </div>
   );
