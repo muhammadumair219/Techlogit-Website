@@ -105,4 +105,14 @@
         flex-direction: column;
         align-items: flex-start;
     }
+
+    .faq h4 {
+        font-size: 16px!important;
+        line-height: 29px!important;
+    }
+    
+    .fullDesc, .faq p {
+        font-size: 14px!important;
+        line-height: 24px!important;
+    }
 }

@@ -109,7 +109,7 @@ padding-top: 26px;
     color: #1B75BC;
     display: flex;
     align-items: center;
-    text-align: center;
+    // text-align: center;
     justify-content: center;
 }
 
@@ -165,6 +165,34 @@ select:focus-visible{
 }
 
 @media (max-width:515px) {
+
+    .productContent h1 {
+        font-size: 22px!important;
+        line-height: 29px!important;
+        margin-bottom: 10px!important;
+        // text-align: center;
+    }
+
+    .productContent h3 {
+        font-size: 18px!important;
+        line-height: 29px!important;
+        margin-bottom: 10px!important;
+        // text-align: center;
+    }
+
+    .productContent p {
+        font-size: 14px!important;
+        line-height: 24px!important;
+        // margin-bottom: 16px!important;
+        // text-align: center;
+    }
+
+    // .dropDown {
+    //     display: flex;
+    //     justify-content: center;
+    //     align-items: center;
+    // }
+    
     .discountButton {
         padding: 0 50px;
     }
@@ -179,8 +207,8 @@ select:focus-visible{
     }
 }
 
-@media (max-width:390px) {
+@media (max-width:400px) {
     .discountButton p {
-        font-size: 14px !important;
+        font-size: 13px !important;
     }
 }

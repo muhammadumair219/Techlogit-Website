@@ -57,7 +57,7 @@ function SingleProduct() {
                     management.
                   </p>
 
-                  <div style={{ marginTop: 40, width: 225 }}>
+                  <div className="dropDown" style={{ marginTop: 40, width: 225 }}>
                     <select name="" id="" className="cs-select">
                       <option value="Select Page..">Select Page..</option>
                       <option value="Select Page...">Page 1</option>
