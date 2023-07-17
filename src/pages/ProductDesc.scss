@@ -43,8 +43,11 @@
 }
 
 .payDesc {
-    padding: 12px 73px;
+    padding: 12px  auto;
+    width: 236px;
+    height: 48px;
     border-radius: 50px;
+    border: 1px solid #1B75BC;
     background-color: #1B75BC;
     color: #fff;
     border: none;
@@ -55,7 +58,9 @@
 }
 
 .oldWork {
-    padding: 12px 82px;
+    padding: 12px auto;
+    width: 236px;
+    height: 48px;
     border-radius: 50px;
     background: #fff;
     color: #1B75BC;
