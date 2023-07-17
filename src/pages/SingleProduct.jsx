@@ -57,7 +57,8 @@ function SingleProduct() {
                     management.
                   </p>
 
-                  <div className="dropDown" style={{ marginTop: 40, width: 225 }}>
+                  <div className="dropDown" style={{ marginTop: 40, width: 225 }} data-aos="fade-up"
+              data-aos-duration="1000">
                     <select name="" id="" className="cs-select">
                       <option value="Select Page..">Select Page..</option>
                       <option value="Select Page...">Page 1</option>
@@ -68,11 +69,14 @@ function SingleProduct() {
 
                   
                     <div className="nowLater">
-                      <button className="payNow">Pay Now</button>
-                      <button className="payLater">Pay Later</button>
+                      <button className="payNow" data-aos="fade-up"
+              data-aos-duration="1500">Pay Now</button>
+                      <button className="payLater" data-aos="fade-up"
+              data-aos-duration="2000">Pay Later</button>
                     </div>
 
-                    <button className="discountButton">
+                    <button className="discountButton" data-aos="zoom-in"
+              data-aos-duration="2500">
                       <div className="discount">
                         <img
                           src="../assets/images/singleProduct/discount.png"
