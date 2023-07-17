@@ -23,10 +23,12 @@ function ServicePage() {
                     <a href="#">
                       <div className="servicesItemActive">
                         <div className="servicesAlign">
+                        <div className="bgactive">
                           <img
                             src="../assets/images/services/webDesign.png"
                             alt="webDesign.png"
                           />
+                          </div>
                           <h3>Web Design & eCommerce</h3>
                         </div>
                       </div>
@@ -37,10 +39,12 @@ function ServicePage() {
                     <a href="#">
                       <div className="servicesItemNotActive">
                         <div className="servicesAlign">
+                          <div className="bgnotactive">
                           <img
                             src="../assets/images/services/mobileAppDevelopment.png"
                             alt="webDesign.png"
                           />
+                          </div>
                           <h3>Web Design & eCommerce</h3>
                         </div>
                       </div>
@@ -51,10 +55,12 @@ function ServicePage() {
                     <a href="#">
                       <div className="servicesItemNotActive">
                         <div className="servicesAlign">
+                          <div className="bgnotactive">
                           <img
                             src="../assets/images/services/graphicDesign.png"
                             alt="webDesign.png"
                           />
+                          </div>
                           <h3>Web Design & eCommerce</h3>
                         </div>
                       </div>

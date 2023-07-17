@@ -148,9 +148,16 @@ padding-top: 26px;
     background-size: 14px;
 }
 
+.cs-select option {
+    font-size: 16px;
+    border: 1px solid #1B75BC;
+    padding: 12px 26px;
+}
+
 select:focus-visible{
     outline: none;
 }
+
 
 // @media (max-width:1200px) {
 //     .discountButton {

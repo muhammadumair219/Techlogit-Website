@@ -62,6 +62,7 @@ function SingleProduct() {
                       <option value="Select Page..">Select Page..</option>
                       <option value="Select Page...">Page 1</option>
                       <option value="Select Page...">Page 2</option>
+                      <option value="Select Page...">Page 3</option>
                     </select>
                   </div>
 

@@ -13,11 +13,11 @@
     width: 433px;
     height: 700px;
     background-image: url(../../public/assets/images/el-left.png);
-    top: -35%;
+    top: -20%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
-    z-index: 1;
+    z-index: 0;
 }
 
 .ellips::after{
@@ -28,11 +28,11 @@
     width: 433px;
     height: 700px;
     background-image: url(../../public/assets/images/ellips.png);
-    top: -20%;
+    top: -10%;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-    z-index: 1;
+    z-index: 0;
 }
 
 .descWork {
@@ -48,7 +48,6 @@
     background-color: #1B75BC;
     color: #fff;
     border: none;
-    color: #FFF;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px; /* 150% */
@@ -60,12 +59,16 @@
     border-radius: 50px;
     background: #fff;
     color: #1B75BC;
-    border: 1px dashed #1B75BC;
-    color: #1B75BC;
+    border: 1px solid #1B75BC;
     font-size: 16px;
     font-weight: 500;
     line-height: 24px; /* 150% */
     letter-spacing: 0.16px;
+}
+
+.buttonsPosition {
+    z-index: 1;
+    position: relative;
 }
 
 .fullDesc {
@@ -94,7 +97,120 @@
     line-height: 155.5%;
 }
 
+.show-content {
+    display: block;
+}
+
+.content {
+    display: none;
+}
+
+.midImage img {
+    width: 642px !important;
+    height: 577px;
+    margin-top: 90px;
+    margin-bottom: 40px;
+    z-index: 1;
+}
+
+.midImage img::after {
+    content: "box";
+    width: 665px !important;
+    height: 447px !important;
+    border-radius: 15px;
+    background: #1b75bc1a;
+    z-index: 1;
+}
+
+.bottomContent{ 
+    margin-bottom: 109px;
+}
+
+.leftButtons, .rightButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 85px;
+    margin-top: 287px !important;
+}
+
+.firstactiveButton, .thirdButton {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.secondButton {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.secondButton button, .thirdButton button {
+    background: #1b75bc1a;
+    color: #1B75BC;
+    border: 1px solid #1B75BC !important;
+    font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+padding: 12px 30px;
+border-radius: 50px;
+border: none;
+}
+
+.activeButton {
+    background-color: #1B75BC;
+    color: #fff;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.01em;
+padding: 12px 30px;
+border-radius: 50px;
+border: none;
+}
+
+.bottomContent {
+    width: 982px !important;
+    display: flex;
+    text-align: center;
+    margin: 40px auto 109px auto;
+}
+
+.bottomContent p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #8a8a8a;
+    margin-bottom: 0 !important;
+}
+
+.leftSide::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+}
+
 @media (max-width:991px) {
+
+    .midImage img {
+        margin-top: 45px;
+        width: 365px !important;
+        height: 350px !important;
+    }
+
+    .firstactiveButton button, .secondButton button, .thirdButton button {
+        width: 200px;
+    }
+    .leftButtons {
+        margin-left: 10px;
+        margin-right: 10px;
+        gap: 47px;
+        display: flex;
+        flex-direction: row;
+        margin-top: 80px !important;
+    }
+    .rightButtons {
+        display: none;
+    }
     .choosePro {
         margin-bottom: 90px;
     }
