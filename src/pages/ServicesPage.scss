@@ -176,8 +176,9 @@
     .leftSide {
         display: flex;
         flex-direction: row;
+        justify-content: center;
         border-right: none;
-        gap: 48px;
+        gap: 0px;
         margin-bottom: 50px;
     }
 
@@ -187,6 +188,10 @@
         align-items: center;
         margin: 15px;
         gap: 15px;
+    }
+    
+    .servicesAlign h3 {
+        font-size: 12px;
     }
 
     .servicesItemActive, .servicesItemNotActive {
@@ -199,20 +204,6 @@
     .paddingGap {
         padding: 0;
     }
-}
-
-.bgRemoved {
-    background-color: #fff;
-}
-
-@media(max-width:767px) {
-    .leftSide {
-        display: flex;
-        flex-direction: row;
-        border-right: none;
-        gap: 20px;
-        margin-bottom: 50px;
-    }
 
     .servicesAlign {
         display: flex;
@@ -221,41 +212,105 @@
         margin: 15px;
         gap: 15px;
     }
-
+    
     .servicesItemActive h3 {
         margin-top: 0;
         color: #1B75BC;
     }
-
+    
     .servicesItemNotActive h3 {
         margin-top: 0;
         color: #000;
     }
-
+    
     .servicesItemActive, .servicesItemNotActive {
         background-color: transparent;
-        // width: 215px;
-        height: 150px;
+        width: 120px;
+        // height: 150px;
         margin: 0;
     }
-
+    
     .bgactive {
         background-color: #1B75BC;
-        width: 75px;
-        height: 75px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
-
+    
     .bgnotactive {
         background-color: #ffffff;
-        width: 75px;
-        height: 75px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
         display: flex;
         align-items: center;
         justify-content: center;
     }
+    
+    .bgactive img, .bgnotactive img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+.bgRemoved {
+    background-color: #fff;
+}
+
+
+
+@media(max-width:767px) {
+
+    // .servicesAlign {
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     margin: 15px;
+    //     gap: 15px;
+    // }
+
+    // .servicesItemActive h3 {
+    //     margin-top: 0;
+    //     color: #1B75BC;
+    // }
+
+    // .servicesItemNotActive h3 {
+    //     margin-top: 0;
+    //     color: #000;
+    // }
+
+    // .servicesItemActive, .servicesItemNotActive {
+    //     background-color: transparent;
+    //     width: 120px;
+    //     // height: 150px;
+    //     margin: 0;
+    // }
+
+    // .bgactive {
+    //     background-color: #1B75BC;
+    //     width: 50px;
+    //     height: 50px;
+    //     border-radius: 50%;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+
+    // .bgnotactive {
+    //     background-color: #ffffff;
+    //     width: 50px;
+    //     height: 50px;
+    //     border-radius: 50%;
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    // }
+
+    // .bgactive img, .bgnotactive img {
+    //     width: 30px;
+    //     height: 30px;
+    // }
 }
