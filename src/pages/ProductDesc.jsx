@@ -115,7 +115,8 @@ function ProductDesc() {
                 </div>
               </div>
 
-              <div className="bottomContent">
+              <div className="bottomContent" data-aos="fade-up"
+              data-aos-duration="1000">
                 <p>Website development refers to the process of creating, designing, and building websites that are accessible via the internet. It involves several aspects, including web design, web content development, client-side and server-side scripting, network security configuration, and database management.</p>
               </div>
             </div>
