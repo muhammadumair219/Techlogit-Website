@@ -26,18 +26,18 @@ function ProductDesc() {
         <div className="container buttonsPosition">
           <div className="descWork">
             <button
-        className={`${toggle === 1 ? "payDesc" : "oldWork"}`}
+              className={`${toggle === 1 ? "payDesc" : "oldWork"}`}
           
-              data-aos="fade-up"
-              data-aos-duration="1000"
+              // data-aos="zoom-in"
+              // data-aos-duration="1000"
               onClick={() => updateToggle(1)}
             >
               Description
             </button>
             <button
               className={`${toggle === 2 ? "payDesc" : "oldWork"}`}
-              data-aos="fade-up"
-              data-aos-duration="1500"
+              // data-aos="zoom-in"
+              // data-aos-duration="1500"
               onClick={() => updateToggle(2)}
             >
               Old Work
