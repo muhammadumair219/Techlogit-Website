@@ -71,7 +71,7 @@ function ServicePage() {
               <div className="col-lg-9 rightSide">
                 <div className="row paddingGap">
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-md-6 col-sm-6 col-xs-6"
                     data-aos="fade-up"
                     data-aos-duration="1000">
                     <div className="webServices">
@@ -95,7 +95,7 @@ function ServicePage() {
                   </div>
 
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-md-6 col-sm-6 col-xs-6"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                   >
@@ -120,7 +120,7 @@ function ServicePage() {
                   </div>
 
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-md-6 col-sm-6 col-xs-6"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                   >
@@ -145,7 +145,7 @@ function ServicePage() {
                   </div>
 
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-md-6 col-sm-6 col-xs-6"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                   >
@@ -170,7 +170,7 @@ function ServicePage() {
                   </div>
 
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-md-6 col-sm-6 col-xs-6"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                   >
@@ -195,7 +195,7 @@ function ServicePage() {
                   </div>
 
                   <div
-                    className="col-lg-4 col-md-6"
+                    className="col-lg-4 col-md-6 col-sm-6 col-xs-6"
                     data-aos="fade-up"
                     data-aos-duration="1000"
                   >

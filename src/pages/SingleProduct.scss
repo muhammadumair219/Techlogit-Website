@@ -158,6 +158,12 @@ select:focus-visible{
     outline: none;
 }
 
+.mobileDropdown {
+    display: flex !important;
+    justify-content: flex-start !important;
+    align-items: center !important;
+}
+
 
 // @media (max-width:1200px) {
 //     .discountButton {
@@ -172,6 +178,22 @@ select:focus-visible{
 }
 
 @media (max-width:515px) {
+
+    .payNow, .payLater {
+        padding: 12px 50px;
+        font-size: 13px;
+    }
+
+    .payNow::before {
+        left: 80px;
+        width: 60%;
+    }
+
+    .mobileDropdown {
+        display: flex !important;
+        // justify-content: center !important;
+        align-items: center !important;
+    }
 
     .productContent h1 {
         font-size: 22px!important;
@@ -193,12 +215,6 @@ select:focus-visible{
         // margin-bottom: 16px!important;
         // text-align: center;
     }
-
-    // .dropDown {
-    //     display: flex;
-    //     justify-content: center;
-    //     align-items: center;
-    // }
     
     .discountButton {
         padding: 0 50px;
@@ -209,8 +225,8 @@ select:focus-visible{
     // }
 
     .nowLater {
-        flex-direction: column;
-        align-items: flex-start;
+        flex-direction: row;
+        align-items: center;
     }
 }
 

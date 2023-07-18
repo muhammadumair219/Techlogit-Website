@@ -57,6 +57,7 @@ function SingleProduct() {
                     management.
                   </p>
 
+                  <div className="mobileDropdown">
                   <div className="dropDown" style={{ marginTop: 40, width: 225 }} data-aos="fade-up"
               data-aos-duration="1000">
                     <select name="" id="" className="cs-select">
@@ -66,7 +67,7 @@ function SingleProduct() {
                       <option value="Select Page...">Page 3</option>
                     </select>
                   </div>
-
+                  </div>
                   
                     <div className="nowLater">
                       <button className="payNow" data-aos="fade-up"
