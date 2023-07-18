@@ -252,11 +252,26 @@ border: none;
     }
 }
 
+.leftButtons::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+    display: none;
+}
+
 @media (max-width:515px) {
     // .descWork {
     //     flex-direction: column;
     //     align-items: flex-start;
     // }
+
+    .payDesc, .oldWork {
+        font-size: 12px !important;
+    }
+
+    .bottomContent p {
+        font-size: 14px !important;
+    line-height: 24px !important;
+    }
 
     .faq h4 {
         font-size: 16px!important;

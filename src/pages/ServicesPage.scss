@@ -157,12 +157,38 @@
 
 @media(max-width:515px) {
     .webServices img {
-        height: 200px;
+        height: 115px;
+    }
+
+    .bottomSection {
+        padding: 15px;
     }
 
     .serviceTitle {
-        padding: 10px 0 10px;
+        font-size: 14px;
+        line-height: 20px;
+        padding: 5px 0 5px;
         margin-bottom: 0 !important;
+    }
+
+    .subTitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .subTitle span {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .description {
+        font-size: 10px;
+        line-height: 19px;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 10px 20px;
     }
 }
 
@@ -264,6 +290,11 @@
 
 
 @media(max-width:767px) {
+
+    .serviceTitle {
+        padding: 10px 0;
+        margin-bottom: 0;
+    }
 
     // .servicesAlign {
     //     display: flex;

@@ -179,13 +179,18 @@ select:focus-visible{
 
 @media (max-width:515px) {
 
+    .discountButton p {
+        font-size: 12px !important;
+        font-weight: 500;
+    }
+
     .payNow, .payLater {
-        padding: 12px 50px;
-        font-size: 13px;
+        padding: 12px 55px;
+        font-size: 12px;
     }
 
     .payNow::before {
-        left: 80px;
+        left: 85px;
         width: 60%;
     }
 
@@ -209,7 +214,7 @@ select:focus-visible{
         // text-align: center;
     }
 
-    .productContent p {
+    .productDesc p {
         font-size: 14px!important;
         line-height: 24px!important;
         // margin-bottom: 16px!important;
@@ -218,6 +223,7 @@ select:focus-visible{
     
     .discountButton {
         padding: 0 50px;
+        min-width: 353px;
     }
 
     // .discountButton p {
@@ -227,11 +233,5 @@ select:focus-visible{
     .nowLater {
         flex-direction: row;
         align-items: center;
-    }
-}
-
-@media (max-width:400px) {
-    .discountButton p {
-        font-size: 13px !important;
     }
 }
